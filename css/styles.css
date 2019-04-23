@@ -21,10 +21,10 @@
 }
 .flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 200px;
   height: 200px;
   border: 1px solid #f1f1f1;
-  perspective: 1000px; 
+  perspective: 500px;
 }
 .flip-card-inner {
   position: relative;
@@ -49,7 +49,7 @@
 }
 
 .flip-card-front {
-  background-color: #bbb;
+  background-color:blue;
   color: black;
 }
 
@@ -58,3 +58,5 @@
   color: white;
   transform: rotateY(180deg);
 }
+.panda{
+  background-color: blue;
