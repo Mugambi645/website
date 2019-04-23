@@ -1,0 +1,2 @@
+function
+document.write(Name)

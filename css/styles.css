@@ -43,13 +43,13 @@
 
 .flip-card-front, .flip-card-back {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 150%;
+  height: 150%;
   backface-visibility: hidden;
 }
 
 .flip-card-front {
-  background-color:blue;
+  background-color:purple;
   color: black;
 }
 
@@ -59,4 +59,13 @@
   transform: rotateY(180deg);
 }
 .panda{
-  background-color: blue;
+  background-color: purple;
+
+  float:right;
+}
+.kolarov{
+  float: right
+}
+.pat{
+  float: left;
+}
